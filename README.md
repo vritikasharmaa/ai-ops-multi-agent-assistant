@@ -34,7 +34,7 @@ streamlit run main.py
 
 The app will be available at http://localhost:8501
 
-# Environment Variables (.env.example)
+# 🔐Environment Variables (.env.example)
 
 OPENAI_API_KEY=your_openai_api_key_here
 
@@ -44,7 +44,7 @@ GITHUB_TOKEN=optional_github_token
 
 .env is ignored using .gitignore to keep secrets safe.
 
-# Architecture Overview
+# 🧠Architecture Overview
 
 ## Agents
 
@@ -70,7 +70,7 @@ Fetches real-time weather using OpenWeatherMap API
 
 Searches top GitHub repositories using GitHub Search API
 
-## Integrated APIs
+# 🔌Integrated APIs
 
 ### OpenAI API – for planning and structured outputs
 
@@ -78,7 +78,7 @@ Searches top GitHub repositories using GitHub Search API
 
 ### GitHub REST API – for repository search
 
-# Example Prompts to Test 
+# 🧪Example Prompts to Test 
 
 ### Search GitHub for DevOps automation scripts
 
@@ -90,7 +90,7 @@ Searches top GitHub repositories using GitHub Search API
 
 ### Check weather in New York
 
-# Known Limitations & Tradeoffs -
+# ⚠️Known Limitations & Tradeoffs -
  
 Planner accuracy depends on LLM output quality
 
@@ -99,3 +99,4 @@ Limited to predefined tools (weather, GitHub search)
 No persistent memory between runs
 
 Rate limits may apply for external APIs
+
